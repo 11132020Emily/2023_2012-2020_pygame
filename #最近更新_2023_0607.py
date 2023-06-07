@@ -56,26 +56,16 @@ class Player :
             gra[1] += 1
         
 #圖片下載
-imm1 = pg.image.load\
-    ('C:\ASUS UX31E Driver\Emily\自主學習\player1.png').convert_alpha()
-imm2 = pg.image.load\
-    ('C:\ASUS UX31E Driver\Emily\自主學習\player2.png').convert_alpha()
-imm3 = pg.image.load\
-    ('C:\ASUS UX31E Driver\Emily\自主學習\player3.png').convert_alpha()
-imm4 = pg.image.load\
-    ('C:\ASUS UX31E Driver\Emily\自主學習\player4.png').convert_alpha()
-imm5 = pg.image.load\
-    ('C:\ASUS UX31E Driver\Emily\自主學習\player1.png').convert()
-imm6 = pg.image.load\
-    ('C:\ASUS UX31E Driver\Emily\自主學習\player2.png').convert()
-imm7 = pg.image.load\
-    ('C:\ASUS UX31E Driver\Emily\自主學習\player3.png').convert()
-imm8 = pg.image.load\
-    ('C:\ASUS UX31E Driver\Emily\自主學習\player4.png').convert()
-imm9 = pg.image.load\
-    ('C:\ASUS UX31E Driver\Emily\自主學習\player6.png').convert_alpha()
-mybg = pg.image.load\
-    ('C:\ASUS UX31E Driver\Emily\資訊\google interland kind.png').convert()
+imm1 = pg.image.load('player1.png').convert_alpha()
+imm2 = pg.image.load('player2.png').convert_alpha()
+imm3 = pg.image.load('player3.png').convert_alpha()
+imm4 = pg.image.load('player4.png').convert_alpha()
+imm5 = pg.image.load('player1.png').convert()
+imm6 = pg.image.load('player2.png').convert()
+imm7 = pg.image.load('player3.png').convert()
+imm8 = pg.image.load('player4.png').convert()
+imm9 = pg.image.load('player6.png').convert_alpha()
+mybg = pg.image.load('google interland smart.png').convert()
 
 #主角設定
 immlist = [imm1, imm2, imm3, imm4, imm5, imm6, imm7, imm8, imm9]
