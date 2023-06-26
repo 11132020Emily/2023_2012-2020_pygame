@@ -8,7 +8,7 @@ pg.init()
 #視窗設定
 width, height = 1200, 600
 myscreen = pg.display.set_mode((width, height))
-pg.display.set_caption("Emily's_test")
+pg.display.set_caption("Loading...Start!")
 
 #主角的class
 class Player :
